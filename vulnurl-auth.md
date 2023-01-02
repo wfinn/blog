@@ -70,7 +70,6 @@ So it looks like one of the most widespread wallets interpreted the spec a bit d
 
 This means the keys and signatures for any subdomain are the same when using Phoenix... do you see where this is going yet?  
 What if you take over some subdomain on your target, what if it has an applicable open redirect?
-What if you can completely take over some random subdomain?
 
 Of course, I have talked to Phoenix about this, and they hinted me at a [public discussion](https://github.com/lnurl/luds/issues/55) where they talk about this.  
 This is a known fact, they don't seem to think it's an issue. Good news for me tho, as this trick continues to exist for the foreseeable future.  
