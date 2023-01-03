@@ -79,9 +79,9 @@ But it's still a nice little trick: subdomains are in scope when phishing Phoeni
 
 ## Final Words
 
-Do not forget you can attack other parts of the LNURL-auth login flow as well. This only covers some LNMURL-auth stuff I noticed.  
+Do not forget you can attack other parts of the LNURL-auth login flow as well. This only covers some LNURL-auth stuff I noticed.  
 I also want to clarify that I shared most of this info with the spec author before publishing this post.  
 How I'd fix it? Probably just use the full URL (removing the value of k1) for key generation, that would prevent a lot of attacks.  
-That would also make LNURL-auth less flexible and kinda disable all current logins, as the keys generated would be different after the update... that's unlikely to happen. I do not think you can compare it to WebAuthN, but I still like the general idea.
+That would also make LNURL-auth less flexible and kinda disable all current logins, as the keys generated would be different after the update... that's unlikely to happen. I do not think you can compare it to WebAuthn, but I still like the general idea.
 
 I would love for someone else to explore this further or even find some real-world examples.
