@@ -77,6 +77,8 @@ This is a known fact, they don't seem to think it's an issue. Good news for me t
 They noted, and I want to highlight that explicitly, that this code honors effective TLDs, so for `username.github.io` the eTLD would be `github.io`, thus the most well-known shared domains are unaffected.  
 But it's still a nice little trick: subdomains are in scope when phishing Phoenix users.
 
+**Update:** I wouldn't have thought it, but [Phoenix actually fixed it](https://github.com/ACINQ/phoenix/releases/tag/android-legacy-v1.4.24) in their latest release (a month ago). I guess this means the trick is dead, but maybe there are other wallets that made the same mistake.
+ 
 ## Final Words
 
 Do not forget you can attack other parts of the LNURL-auth login flow as well. This only covers some LNURL-auth stuff I noticed.  
